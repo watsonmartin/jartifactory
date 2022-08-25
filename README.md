@@ -27,6 +27,8 @@ Password: NotAllWhoWanderAre@Lost98
 The above credentials are valid for the default host used by `jartifactory`. `jartifactory` can be directed towards other artifactory hosts using 
 the `--set-default-host` command. If this is done, then credentials that are valid for that instance of artifactory will have to be used instead. 
 
+Create a `.env` file in the root directory of the project. This is used by `dotenv` to keep track of tokens/keys when signing in. 
+
 ## Usage and Command Options
 
 There are a great many options that can be specified by `jartifactory` in order to interact with Artifactory hosts by using the Artifactory REST API. 
